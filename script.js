@@ -149,11 +149,11 @@ if (logo) {
     }
   });
 
-function loadCalculator() {
-    window.location.href = "https://your-github-pages-link";
-}
+document.querySelector(".project-card").addEventListener("click", () => {
+    window.location.href = "https://aman-kashyap-310304.github.io/Simple-Calculator/";
+});
 
-function loadCalculatorRepo(event) {
-    event.stopPropagation(); // 🔥 IMPORTANT
+document.querySelector(".project-links a").addEventListener("click", (e) => {
+    e.stopPropagation();
     window.location.href = "https://github.com/Aman-Kashyap-310304/Simple-Calculator/";
-}
+});
