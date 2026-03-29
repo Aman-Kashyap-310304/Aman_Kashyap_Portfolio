@@ -148,3 +148,7 @@ if (logo) {
       alert("Sharing not supported. Copy this link: " + window.location.href);
     }
   });
+
+function loadCalculator() {
+    window.location.href = "https://aman-kashyap-310304.github.io/Simple-Calculator/";
+}
