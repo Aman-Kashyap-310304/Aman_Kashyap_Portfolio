@@ -149,6 +149,11 @@ if (logo) {
     }
   });
 
+function loadCalculatorRepo() {
+    window.location.replace("https://github.com/Aman-Kashyap-310304/Simple-Calculator/");
+    return;
+}
+
 function loadCalculator() {
     window.location.href = "https://aman-kashyap-310304.github.io/Simple-Calculator/";
 }
