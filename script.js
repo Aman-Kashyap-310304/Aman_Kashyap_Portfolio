@@ -131,10 +131,15 @@ if (logo) {
   });
 }
 
-// Like Button
-  document.querySelector(".like-btn").addEventListener("click", function() {
-    this.innerHTML = "❤️ Liked";
-  });
+// Download Button
+document.querySelector(".down-btn").addEventListener("click", function () {
+  const link = document.createElement("a");
+  link.href = "file.pdf"; // Path to the file
+  link.download = "file.pdf"; // Downloaded filename
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+});
 
   // Share Button
   document.querySelector(".share-btn").addEventListener("click", function() {
