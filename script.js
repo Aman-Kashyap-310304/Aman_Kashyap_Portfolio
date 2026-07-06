@@ -155,7 +155,7 @@ document.querySelector(".down-btn").addEventListener("click", function () {
   });
 
 function loadCalculator() {
-    window.location.href = "https://aman-kashyap-310304.github.io/Simple-Calculator/";
+    window.location.href = "https://aman-kashyap-310304.github.io/Smart_Calculator/";
 }
 
 function loadCalculatorRepo(event) {
