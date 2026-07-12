@@ -160,5 +160,5 @@ function loadCalculator() {
 
 function loadCalculatorRepo(event) {
     event.stopPropagation(); // 🔥 IMPORTANT
-    window.location.href = "https://github.com/Aman-Kashyap-310304/Simple-Calculator/";
+    window.location.href = "https://github.com/Aman-Kashyap-310304/Simple_Calculator/";
 }
